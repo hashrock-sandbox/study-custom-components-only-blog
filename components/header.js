@@ -8,6 +8,9 @@ export class MyHeader extends HTMLElement {
             background: #333;
             color: #EEE;
         }
+        a{
+            color: white;
+        }
         ul {
             margin: 0;
             padding: 0;
@@ -20,7 +23,7 @@ export class MyHeader extends HTMLElement {
         </style>
         <div class="nav">
             <ul>
-                <li>Home</li>
+                <li><a href="./">Home</a></li>
                 <li>Works</li>
                 <li>About</li>
             </ul>

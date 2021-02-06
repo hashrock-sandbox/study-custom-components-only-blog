@@ -4,26 +4,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>手打ちのホムペ2.0</title>
     <script src="./mod.js" type="module"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <my-header></my-header>
-    <article>
-        <h1>直接HTMLを書いていこう</h1>
-
-        <p>
-            Markdownのほうがもちろん書きやすいかもしれないけど、
-            人間にはそもそもビルドしたくない時だってあるんだから
-            直接HTML書いたっていいじゃない
-        </p>
-
-        <p>
-            このようにナビゲーションとかはCustom Elementsに切り出してしまえば、
-            コンテンツに関係ない内容は追い出せるんじゃないだろうか
-        </p>
-    </article>
-
-
-
+    <my-layout>
+        <article>
+            <h1>直接HTMLを書いていこう</h1>
+    
+            <p>
+                Markdownのほうがもちろん書きやすいかもしれないけど、
+                人間にはそもそもビルドしたくない時だってあるんだから
+                直接HTML書いたっていいじゃない
+            </p>
+    
+            <p>
+                このようにナビゲーションとかはCustom Elementsに切り出してしまえば、
+                コンテンツに関係ない内容は追い出せるんじゃないだろうか
+            </p>
+        </article>
+    </my-layout>
 </body>
 </html>
